@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+
+        function obtenerPerimetroArea(){
+    let width = prompt("Introduce el ancho");
+    let height = prompt("Introduce la altura");
+    if(width===height){
+        alert("El area del cuadrado es: " + width*height);
+    }
+    else if(width!=height){
+       alert("El perimetro del rectangulo es: " + 2 * (parseInt(width) + parseInt(height)));
+    }
+}
+ /*function perimetro(width, heigth){
+return sum(width*2 + heigth*2)
+ }*/
+    </script>
+</head>
+<body>
+    <button onclick="obtenerPerimetroArea()" style="background-color: rgb(186, 120, 248); border-radius: 25px; border: ridge 5px orange;"> CLICA PARA INTRODUCIR LA ALTURA Y ANCHURA</button>
+    
+</body>
+</html>
